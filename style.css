@@ -1,0 +1,63 @@
+body{
+  font-family: sans-serif, cursive;
+  background-color: #d9ba1d;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.register_form{
+  width: 320px;
+  height: 300px;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #169622;
+  border-radius: 12px;
+  box-shadow: 0 4px 32px #36065b;
+}
+.register_form h1 {
+  text-align: center;
+  color: #1d1d75;
+}
+.login_form{
+  margin-left: 12px;
+}
+.password_form {
+  margin-left: 12px;
+  margin-top: 20px;
+}
+#button_log_form{
+     margin-left: 50px;
+    width: 150px;
+    border-radius: 12px;
+    padding: 6px;
+    border: 1px solid indianred;
+    border: 1 px solid;
+    margin-top: 23px;
+}
+#login {
+  margin-left: 19px;
+  border: 2px solid greenyellow;
+  border-radius: 7px;
+}
+#password{
+  border: 2px solid greenyellow;
+  border-radius: 7px;
+}
+.block{
+  margin: 50px 22px;
+}
+#error_message{
+  color: #55d236;
+  background-color: red;
+  font-size: 23px;
+  padding-left: 63px;
+  border-radius: 13px;
+}
+#sucess_message{
+  color: #d2363e;
+  background-color: rgb(43, 255, 0);
+  font-size: 23px;
+  padding-left: 63px;
+  border-radius: 13px;
+}
